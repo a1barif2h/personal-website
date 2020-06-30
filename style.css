@@ -1,4 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+section{
+    padding: 60px 0;
+}
+/*START HEADER SECTION*/
+#header{
+    background: url("images/header-bg.png") no-repeat;
+    background-position: center left;
+    background-size: contain;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+.container .half_width{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    float: left;
+}
+.container .margin_top{
+    margin-top: 80px;
+}
+.container .margin_left{
+    margin-left: 0;
+}
+.container .half_width h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.container .half_width h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #EC4C7A;
+    margin-top: -10px;
+}
+.container .half_width p{
+    line-height: 150%;
+    font-size: 18px;
+    color: #707070;
+}
+.container .half_width a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #EC4C79;
+    opacity: 0.8;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.container .half_width a:hover{
+    opacity: 1;
+}
+.container .half_width img{
+    width: 100%;
+}
+/* END HEADER SECTION */
+.biography_bg{
+    background: url("images/biography-bg.png") ;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
 }
