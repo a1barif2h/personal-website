@@ -4,7 +4,7 @@ body{
     margin: 0;
 }
 section{
-    padding: 60px 0;
+    
 }
 /*START HEADER SECTION*/
 #header{
@@ -12,8 +12,14 @@ section{
     background-position: center left;
     background-size: contain;
 }
-.container{
+.container_full{
     width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
     overflow: hidden;
 }
 .container .half_width{
@@ -43,7 +49,11 @@ section{
 .container .half_width p{
     line-height: 150%;
     font-size: 18px;
+    box-shadow: 10px 10px 40px lightgray;
     color: #707070;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgba(24, 9, 241, 0.4), rgba(16, 245, 27, 0.4));
+    border-image-slice: 1;
 }
 .container .half_width a{
     text-decoration: none;
@@ -67,9 +77,92 @@ section{
     width: 100%;
 }
 /* END HEADER SECTION */
+
+/* START BIOGRAPHY SECTION */
 .biography_bg{
     background: url("images/biography-bg.png") ;
     background-position: center center;
     background-size: cover;
     overflow: hidden;
 }
+/* END BIOGRAPHY SECTION */
+
+/* START LATEST WORK SECTION */
+.latest_work_bg{
+    background: url("images/latest-work-bg.png") no-repeat;
+    background-position: center right;
+}
+.special{
+    text-align: center;
+    margin: 45px 0;
+}
+.container .sampal_img {
+    width: 30%;
+    margin: auto;
+    float: left;
+    margin-left: 3%;
+}
+.container .sampal_img img{
+    width: 100%;
+}
+/* END LATEST WORK SECTION */
+
+/* START HEADER SECTION */
+.footer_bg{
+    background: url("images/footer-bg.png") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.clint_say{
+    width: 500px;
+    margin: auto;
+}
+.clint_say h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.clint_say p{
+    text-align: center;
+    line-height: 150%;
+    color: #333333;
+    font-size: 18px;
+    padding: 30px 0;
+}
+.clint_say h3{
+    text-align: center;
+    margin-bottom: -10px;
+
+}
+
+.clint_say h3+p{
+    text-align: center;
+    font-size: 14px;
+    color: #707070;
+    padding: 0;
+}
+.clint_say a{
+    text-decoration: none;
+    background: #EC4C76;
+    padding: 20px 140px;
+    text-align: center;
+    width: 240px;
+    display: block;
+    margin: 50px auto;
+    color: #fff;
+    
+}
+.clint_say a .email{
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+    font-weight: 700;
+}
+.container #special{
+    font-size: 12px;
+    color: #707070;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+/* START HEADER SECTION */
