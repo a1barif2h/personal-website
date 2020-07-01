@@ -91,7 +91,6 @@ body{
     background: url("images/latest-work-bg.png") no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
 }
 .special{
     text-align: center;
@@ -108,11 +107,12 @@ body{
 }
 /* END LATEST WORK SECTION */
 
-/* START HEADER SECTION */
+/* START FOOTER SECTION */
 .footer_bg{
     background: url("images/footer-bg.png") no-repeat;
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .clint_say{
     width: 500px;
@@ -173,4 +173,4 @@ body{
     margin-top: 100px;
     margin-bottom: -50px;
 }
-/* START HEADER SECTION */
+/* START FOOTER SECTION */
