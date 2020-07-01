@@ -144,13 +144,20 @@ section{
 .clint_say a{
     text-decoration: none;
     background: #EC4C76;
+    opacity: 0.8;
     padding: 20px 140px;
     text-align: center;
     width: 240px;
     display: block;
     margin: 50px auto;
     color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     
+}
+.clint_say a:hover{
+    opacity: 1;
 }
 .clint_say a .email{
     font-size: 20px;
